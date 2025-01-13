@@ -16,7 +16,7 @@ int main() {
     int div = number1 / number2;
 
     if (number2 == 0) {
-
+        div = 0;
     }
 
     std::cout << "Your 2 numbers added together equals" << " "<< sum << std::endl;
